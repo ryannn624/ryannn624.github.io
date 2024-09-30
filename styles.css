@@ -1,0 +1,197 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #D4E157 0%, #A7D129 100%);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.navbar {
+    background-color: #8BC34A;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-top: 250px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    width: 100%;
+    /* 默认是整行显示一个项目 */
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.gallery-item h3 {
+    margin: 0;
+    color: #8BC34A;
+}
+
+.gallery-item p {
+    color: #666;
+    margin: 10px 0 0;
+    font-size: 0.9em;
+    /* 调整字体大小 */
+}
+
+.gallery-item strong {
+    color: #4a4a4a;
+    /* 使标签变得更明显 */
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.lightbox.show {
+    display: flex;
+}
+
+.social-links a {
+    color: #8BC34A;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.portfolio-navbar {
+    background-color: rgba(255, 255, 255, 0.0);
+    /* 增加透明效果，0.8为透明度 */
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.portfolio-navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+.portfolio-navbar a:hover {
+    text-decoration: underline;
+}
+
+/* For screens that are at least 700px wide */
+@media screen and (min-width: 700px) {
+    .gallery-item {
+        width: 48%;
+    }
+}
+
+/* For screens that are at least 500px wide */
+@media screen and (min-width: 500px) {
+    .gallery-item {
+        width: 48%;
+    }
+}

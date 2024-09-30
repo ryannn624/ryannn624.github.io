@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="photos/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+    </div>
+
+    <header id="about" class="container">
+        <img src="photos/NJR.jpg" alt="Your Photo">
+        <h1>Ryan</h1>
+        <p>你好,我是Ryan,一名攝影愛好者，我熱愛用快門記錄生活中的點滴。</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ryannn624_" class="fab fa-instagram"></a>
+        </div>
+    </header>
+
+    <div id="portfolio" class="container">
+        <h2>My Portfolio</h2>
+        <!-- 分类导航栏 -->
+        <div class="portfolio-navbar">
+            <a href="javascript:void(0)" onclick="filterGallery('all')">所有作品</a>
+            <a href="javascript:void(0)" onclick="filterGallery('photography')">人像</a>
+            <a href="javascript:void(0)" onclick="filterGallery('animals')">動物</a>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item photography">
+                <a href="javascript:void(0)" onclick="showLightbox('lightbox1')">
+                    <img src="photos/bf.jpg" alt="Sample Image1">
+                </a>
+                <h3>一個人</h3>
+                <p></p>
+                <p><strong>拍攝時間:</strong> 2024年6月18日</p>
+                <p><strong>拍攝地點:</strong> 香港, 中國</p>
+            </div>
+            <div id="lightbox1" class="lightbox" onclick="hideLightbox('lightbox1')">
+                <img src="photos/bf.jpg" alt="Sample Image1">
+            </div>
+
+            <!-- Add more items with appropriate class for category -->
+            <div class="gallery-item animals">
+                <a href="javascript:void(0)" onclick="showLightbox('lightbox2')">
+                    <img src="photos/animals1.jpg" alt="Sample Image2">
+                </a>
+                <h3>一隻羊</h3>
+                <p></p>
+                <p><strong>拍攝時間:</strong> 2024年8月11日</p>
+                <p><strong>拍攝地點:</strong> 白城，吉林，中國</p>
+            </div>
+            <div id="lightbox2" class="lightbox" onclick="hideLightbox('lightbox2')">
+                <img src="photos/animals1.jpg" alt="Sample Image2">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ryan's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
