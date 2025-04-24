@@ -1,6 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "../styles/homepage.css";
 
 const HomePage: React.FC = () => {
@@ -39,7 +40,7 @@ const HomePage: React.FC = () => {
           transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
         >
           <motion.img
-            src="/NJR.jpg"
+            src="./NJR.jpg"
             alt="Ryan - Professional Photographer"
             whileHover={{
               scale: 1.02,
@@ -101,23 +102,24 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.6, delay: 1.0, ease: "easeOut" }}
           >
             <motion.div className="homepage-cta">
-              <motion.a
-                href="/portfolio"
-                className="cta-button"
+              <motion.div
                 whileHover={{
                   scale: 1.05,
-                  backgroundColor: "#689f38",
-                  boxShadow: "0 6px 15px rgba(0, 0, 0, 0.2)",
                 }}
                 whileTap={{ scale: 0.98 }}
-                transition={{
-                  type: "tween",
-                  duration: 0.2,
-                  ease: "easeOut",
-                }}
               >
-                portfolio
-              </motion.a>
+                <Link
+                  to="/portfolio"
+                  className="cta-button"
+                  style={{
+                    display: "block",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
+                  portfolio
+                </Link>
+              </motion.div>
             </motion.div>
           </motion.div>
 
