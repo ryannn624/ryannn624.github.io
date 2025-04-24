@@ -4,7 +4,7 @@
   background-color: rgba(255, 255, 255, 0);
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh; /* Changed from height to min-height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,10 +45,10 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  height: 100%;
   width: 100%;
   max-width: 1200px;
   padding: 0 20px;
+  min-height: 100%;
 }
 
 .homepage-image {
@@ -163,9 +163,15 @@
 }
 
 @media screen and (max-width: 992px) {
+  .homepage {
+    padding: 80px 0; /* Add padding for better spacing */
+    height: auto; /* Allow height to adapt to content */
+  }
+  
   .homepage-content {
-    flex-direction: column-reverse;
-    padding: 60px 20px;
+    flex-direction: column; /* Changed from column-reverse to column to show image at top */
+    padding: 20px;
+    gap: 30px;
   }
 
   .homepage-text {
@@ -173,7 +179,7 @@
   }
 
   .homepage img {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .social-links {
@@ -187,7 +193,7 @@
 
 @media screen and (max-width: 768px) {
   .homepage {
-    padding: 0 25px;
+    padding: 70px 25px;
   }
 
   .homepage h1 {
@@ -201,12 +207,16 @@
 
 @media screen and (max-width: 480px) {
   .homepage {
-    padding: 0 15px;
+    padding: 60px 15px;
+  }
+
+  .homepage-content {
+    gap: 20px;
   }
 
   .homepage img {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
   }
 
   .homepage h1 {

@@ -116,32 +116,174 @@
   height: 2px;
 }
 
+/* Hamburger menu button */
+.hamburger-menu {
+  display: none; /* Hidden by default on desktop */
+  cursor: pointer;
+  padding: 8px;
+  z-index: 1001;
+}
+
+.hamburger-icon {
+  width: 28px;
+  height: 22px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger-icon span:nth-child(2) {
+  top: 10px;
+}
+
+.hamburger-icon span:nth-child(3) {
+  top: 20px;
+}
+
+/* Hamburger animation when open */
+.hamburger-icon.open span:nth-child(1) {
+  top: 10px;
+  transform: rotate(45deg);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.hamburger-icon.open span:nth-child(3) {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+/* Menu overlay */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 4px 0;
+    padding: 12px 0;
   }
 
   .navbar.scrolled {
-    padding: 2px 0;
+    padding: 8px 0;
   }
 
   .navbar-container {
+    justify-content: center;
+    padding: 0 15px;
+    position: relative;
+  }
+  
+  /* Show hamburger menu on mobile */
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Mobile nav links styling */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #8bc34a;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 20px 40px;
+    transition: left 0.3s ease;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  
+  .nav-links.menu-open {
+    left: 0;
+  }
+  
+  .nav-links motion.div {
+    width: 100%;
+    margin: 8px 0;
+  }
+  
+  .navbar div a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 12px 15px;
+    margin: 5px 0;
+  }
+  
+  .navbar div a:before {
+    display: none;
+  }
+  
+  .navbar div a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: none;
   }
 
-  .navbar a,
-  .navbar div a {
-    margin: 0 10px;
-    font-size: 0.85em;
-    padding: 4px 10px;
+  .menu-overlay {
+    display: block;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .navbar a,
+  .navbar {
+    padding: 10px 0;
+  }
+  
+  .nav-links {
+    width: 85%;
+    padding: 70px 15px 30px;
+  }
+  
   .navbar div a {
-    margin: 0 8px;
-    font-size: 0.8em;
-    padding: 5px 10px;
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  
+  /* Make hamburger icon slightly smaller on very small screens */
+  .hamburger-icon {
+    width: 24px;
+    height: 18px;
+  }
+  
+  .hamburger-icon span:nth-child(2) {
+    top: 8px;
+  }
+  
+  .hamburger-icon span:nth-child(3) {
+    top: 16px;
+  }
+  
+  .hamburger-icon.open span:nth-child(1),
+  .hamburger-icon.open span:nth-child(3) {
+    top: 8px;
   }
 }

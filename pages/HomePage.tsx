@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -7,9 +7,14 @@ import "../styles/homepage.css";
 const HomePage: React.FC = () => {
   // Using intersection observer to track when element is in view
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.1, // Reduced threshold for better mobile responsiveness
     triggerOnce: true,
   });
+
+  // Making sure the page scrolls to top when loaded for mobile
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Animation variants for consistent effects
   const fadeIn = {
@@ -28,6 +33,20 @@ const HomePage: React.FC = () => {
     },
   };
 
+  // Responsive animation variants that work better on mobile
+  const mobileAwareSlideIn = {
+    hidden: (direction: number) => ({
+      opacity: 0,
+      x: window.innerWidth < 768 ? 0 : direction * 50,
+      y: window.innerWidth < 768 ? 30 : 0,
+    }),
+    visible: {
+      opacity: 1,
+      x: 0,
+      y: 0,
+    },
+  };
+
   return (
     <div className="homepage" ref={ref}>
       <div className="homepage-content">
@@ -36,7 +55,7 @@ const HomePage: React.FC = () => {
           custom={-1}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
-          variants={slideIn}
+          variants={mobileAwareSlideIn}
           transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
         >
           <motion.img
@@ -59,7 +78,7 @@ const HomePage: React.FC = () => {
           custom={1}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
-          variants={slideIn}
+          variants={mobileAwareSlideIn}
           transition={{ duration: 0.9, ease: "easeOut", delay: 0.3 }}
         >
           <motion.h1
