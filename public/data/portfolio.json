@@ -1,0 +1,92 @@
+{
+  "pen": {
+    "title": "Pen",
+    "icon": "fas fa-user",
+    "photos": [
+      {
+        "image": "./pen/pen1.jpg",
+        "date": "June 18, 2024",
+        "location": "Hong Kong, China",
+        "camera": "Sony a5100"
+      }
+    ]
+  },
+  "rural-scenes": {
+    "title": "Rural Scenes",
+    "icon": "fas fa-tree",
+    "photos": [
+      {
+        "image": "./rural/sheep.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Canon EOS 70D"
+      }
+    ]
+  },
+  "duo": {
+    "title": "Duo",
+    "icon": "fas fa-user",
+    "photos": [
+      {
+        "image": "./yanji/yanji1.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji2.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji3.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji4.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji5.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji6.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji7.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji8.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji9.PNG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      },
+      {
+        "image": "./yanji/yanji10.JPG",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Canon EOS 70D"
+      }
+    ]
+  }
+}
