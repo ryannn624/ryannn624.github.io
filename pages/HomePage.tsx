@@ -180,8 +180,6 @@ const ProfileImage = styled(motion.img)`
   position: relative;
   z-index: 2;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-  border: 4px solid white;
 
   @media screen and (max-width: 992px) {
     width: 320px;
@@ -528,7 +526,7 @@ const HomePage: React.FC = () => {
                 className="fas fa-map-marker-alt"
                 style={{ color: "#8bc34a" }}
               />
-              Based in Seoul, South Korea
+              Base in Seoul, South Korea
             </InfoParagraph>
 
             <HomePageNav

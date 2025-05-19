@@ -1,7 +1,6 @@
 {
   "pen": {
     "title": "Pen",
-    "icon": "fas fa-user",
     "photos": [
       {
         "image": "./pen/pen1.jpg",
@@ -11,21 +10,8 @@
       }
     ]
   },
-  "rural-scenes": {
-    "title": "Rural Scenes",
-    "icon": "fas fa-tree",
-    "photos": [
-      {
-        "image": "./rural/sheep.jpg",
-        "date": "December 24, 2023",
-        "location": "Baicheng, Jilin, China",
-        "camera": "Canon EOS 70D"
-      }
-    ]
-  },
   "duo": {
-    "title": "Duo",
-    "icon": "fas fa-user",
+    "title": "朵朵",
     "photos": [
       {
         "image": "./yanji/yanji1.JPG",
@@ -86,6 +72,97 @@
         "date": "December 24, 2023",
         "location": "Yanji, Jilin, China",
         "camera": "Canon EOS 70D"
+      }
+    ]
+  },
+
+  "芋頭": {
+    "title": "芋頭",
+    "photos": [
+      {
+        "image": "./yutou/1.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+
+      {
+        "image": "./yutou/3.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/4.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/5.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/6.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/7.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/8.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/9.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/10.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/11.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/12.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/13.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/14.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/16.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
       }
     ]
   }

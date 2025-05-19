@@ -425,7 +425,6 @@ interface PhotoItem {
 // Extended Series information
 interface SeriesInfo {
   title: string; // Display name
-  icon: string; // Font Awesome icon class
   photos: PhotoItem[];
 }
 
@@ -507,7 +506,6 @@ const PortfolioPage: React.FC = () => {
     () =>
       galleryCollection[activeSeries] || {
         title: "",
-        icon: "fas fa-camera",
         photos: [],
       },
     [galleryCollection, activeSeries]
@@ -656,12 +654,6 @@ const PortfolioPage: React.FC = () => {
                         whileHover={{ x: 5 }}
                         whileTap={{ scale: 0.98 }}
                       >
-                        <i
-                          className={
-                            galleryCollection[series]?.icon || "fas fa-camera"
-                          }
-                          style={{ marginRight: "10px" }}
-                        ></i>
                         {galleryCollection[series]?.title || series}
                       </SeriesItem>
                     </SeriesListItem>
