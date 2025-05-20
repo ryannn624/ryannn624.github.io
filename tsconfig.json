@@ -21,7 +21,5 @@
     },
     "typeRoots": ["node_modules/@types"]
   },
-  "include": ["src/**/*", "**/*.tsx", "**/*.ts"],
-  "exclude": ["vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*", "**/*.tsx", "**/*.ts", "vite.config.ts"]
 }

@@ -24,18 +24,6 @@ const pulse = keyframes`
   }
 `;
 
-const gradientAnimation = keyframes`
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-`;
-
 // Styled Components
 const HomePageContainer = styled.div`
   text-align: center;
@@ -65,25 +53,6 @@ const HomePageContainer = styled.div`
     );
     z-index: -1;
     animation: ${shine} 15s infinite linear;
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-      -45deg,
-      rgba(139, 195, 74, 0.05),
-      rgba(104, 159, 56, 0.08),
-      rgba(174, 213, 129, 0.07),
-      rgba(220, 237, 200, 0.06)
-    );
-    background-size: 400% 400%;
-    z-index: -2;
-    animation: ${gradientAnimation} 15s ease infinite;
   }
 
   @media screen and (max-width: 992px) {
@@ -217,24 +186,6 @@ const MainHeading = styled(motion.h1)`
   line-height: 1.1;
   letter-spacing: -0.5px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
-
-  &:after {
-    content: "";
-    position: absolute;
-    height: 8px;
-    width: 60px;
-    background-color: rgba(139, 195, 74, 0.8);
-    bottom: 5px;
-    left: 0;
-    border-radius: 4px;
-  }
-
-  @media screen and (max-width: 992px) {
-    &:after {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
 
   @media screen and (max-width: 768px) {
     font-size: 3.5em;
