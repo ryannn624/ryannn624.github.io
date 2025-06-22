@@ -1,168 +1,691 @@
 {
-  "pen": {
-    "title": "Pen",
+  "gsh": {
+    "title": "Grandma's Sweet Home",
+    "start": "2022",
+    "end": " ",
     "photos": [
       {
-        "image": "./pen/pen1.jpg",
-        "date": "June 18, 2024",
-        "location": "Hong Kong, China",
+        "image": "./gssh/00.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
         "camera": "Sony a5100"
-      }
-    ]
-  },
-  "duo": {
-    "title": "朵朵",
-    "photos": [
-      {
-        "image": "./yanji/yanji1.JPG",
-        "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
       },
       {
-        "image": "./yanji/yanji2.JPG",
+        "image": "./gssh/01.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji3.JPG",
+        "image": "./gssh/02.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji4.JPG",
+        "image": "./gssh/03.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji5.JPG",
+        "image": "./gssh/04.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji6.JPG",
+        "image": "./gssh/06.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji7.JPG",
+        "image": "./gssh/07.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji8.JPG",
+        "image": "./gssh/08.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji9.PNG",
+        "image": "./gssh/09.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yanji/yanji10.JPG",
+        "image": "./gssh/10.jpg",
         "date": "December 24, 2023",
-        "location": "Yanji, Jilin, China",
-        "camera": "Canon EOS 70D"
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/11.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/12.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/13.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/14.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/15.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/16.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/17.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/18.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/19.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/20.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/21.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/22.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/23.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/24.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/25.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/26.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/27.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/28.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/29.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/30.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/31.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/32.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/33.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/34.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./gssh/35.jpg",
+        "date": "December 24, 2023",
+        "location": "Baicheng, Jilin, China",
+        "camera": "Sony a5100"
       }
     ]
   },
 
   "芋頭": {
-    "title": "芋頭",
+    "title": "Chromatic Daydream",
+    "start": "2025",
+    "end": "2025",
     "photos": [
       {
-        "image": "./yutou/1.jpg",
+        "image": "./yutou/芋头00.jpg",
         "date": "May 18, 2025",
         "location": "Seoul, South Korea",
         "camera": "FUJIFILM XT-30 II"
       },
+      {
+        "image": "./yutou/芋头01.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头02.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头03.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头04.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头05.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头06.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头07.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头08.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头09.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头10.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头11.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头12.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头13.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头14.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头15.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头16.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头17.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头18.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头19.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头20.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头21.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头22.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头23.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头24.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头25.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      },
+      {
+        "image": "./yutou/芋头26.jpg",
+        "date": "May 18, 2025",
+        "location": "Seoul, South Korea",
+        "camera": "FUJIFILM XT-30 II"
+      }
+    ]
+  },
+  "way back home": {
+    "title": "Way Back Home",
+    "start": "2022",
+    "end": " ",
+    "photos": [
+      {
+        "image": "./waybackhome/001.jpg"
+      },
+      {
+        "image": "./waybackhome/002.jpg"
+      },
+      {
+        "image": "./waybackhome/003.jpg"
+      },
+      {
+        "image": "./waybackhome/004.jpg"
+      },
+      {
+        "image": "./waybackhome/005.jpg"
+      },
+      {
+        "image": "./waybackhome/006.jpg"
+      },
+      {
+        "image": "./waybackhome/007.jpg"
+      },
+      {
+        "image": "./waybackhome/008.jpg"
+      },
+      {
+        "image": "./waybackhome/009.jpg"
+      },
+      {
+        "image": "./waybackhome/010.jpg"
+      },
+      {
+        "image": "./waybackhome/011.jpg"
+      },
+      {
+        "image": "./waybackhome/012.jpg"
+      },
+      {
+        "image": "./waybackhome/013.jpg"
+      },
+      {
+        "image": "./waybackhome/014.jpg"
+      },
+      {
+        "image": "./waybackhome/015.jpg"
+      },
+      {
+        "image": "./waybackhome/016.jpg"
+      },
+      {
+        "image": "./waybackhome/017.jpg"
+      },
+      {
+        "image": "./waybackhome/018.jpg"
+      },
+      {
+        "image": "./waybackhome/019.jpg"
+      },
+      {
+        "image": "./waybackhome/020.jpg"
+      },
+      {
+        "image": "./waybackhome/021.jpg"
+      },
+      {
+        "image": "./waybackhome/022.jpg"
+      },
+      {
+        "image": "./waybackhome/023.jpg"
+      },
+      {
+        "image": "./waybackhome/024.jpg"
+      },
+      {
+        "image": "./waybackhome/026.jpg"
+      },
+      {
+        "image": "./waybackhome/027.jpg"
+      },
+      {
+        "image": "./waybackhome/028.jpg"
+      },
+      {
+        "image": "./waybackhome/029.jpg"
+      },
+      {
+        "image": "./waybackhome/030.jpg"
+      },
+      {
+        "image": "./waybackhome/031.jpg"
+      },
+      {
+        "image": "./waybackhome/032.jpg"
+      },
+      {
+        "image": "./waybackhome/033.jpg"
+      },
+      {
+        "image": "./waybackhome/034.jpg"
+      },
+      {
+        "image": "./waybackhome/035.jpg"
+      },
+      {
+        "image": "./waybackhome/036.jpg"
+      },
+      {
+        "image": "./waybackhome/037.jpg"
+      },
+      {
+        "image": "./waybackhome/038.jpg"
+      },
+      {
+        "image": "./waybackhome/039.jpg"
+      },
+      {
+        "image": "./waybackhome/040.jpg"
+      },
+      {
+        "image": "./waybackhome/041.jpg"
+      },
+      {
+        "image": "./waybackhome/042.jpg"
+      },
+      {
+        "image": "./waybackhome/043.jpg"
+      }
+    ]
+  },
 
+  "DUO": {
+    "title": "DUO",
+    "start": "2023",
+    "end": "2023",
+    "photos": [
       {
-        "image": "./yutou/3.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/0.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/4.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/1.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/5.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/2.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/6.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/3.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/7.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/4.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/8.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/5.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/9.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/6.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/10.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/7.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/11.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/8.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/12.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/9.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/13.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/10.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/14.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/11.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       },
       {
-        "image": "./yutou/16.jpg",
-        "date": "May 18, 2025",
-        "location": "Seoul, South Korea",
-        "camera": "FUJIFILM XT-30 II"
+        "image": "./DUO/12.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/13.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/14.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/15.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/16.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/17.png",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/18.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/19.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/20.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/21.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/22.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/23.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/24.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/25.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
+      },
+      {
+        "image": "./DUO/26.jpg",
+        "date": "December 24, 2023",
+        "location": "Yanji, Jilin, China",
+        "camera": "Sony a5100"
       }
     ]
   }
