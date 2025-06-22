@@ -247,6 +247,17 @@ const SeriesHeading = styled.h2`
   }
 `;
 
+const SeriesTimestamp = styled.p`
+  color: #666;
+  font-size: 0.9rem;
+  margin: 5px 0 15px 0;
+  font-style: italic;
+
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
+`;
+
 const SeriesCount = styled.p`
   @media screen and (max-width: 992px) {
     /* No specific styles needed */
@@ -425,6 +436,8 @@ interface PhotoItem {
 // Extended Series information
 interface SeriesInfo {
   title: string; // Display name
+  start?: string; // Start time
+  end?: string; // End time
   photos: PhotoItem[];
 }
 
@@ -449,6 +462,15 @@ const PortfolioPage: React.FC = () => {
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  // Format timestamp for series
+  const formatTimestamp = (start?: string, end?: string): string => {
+    if (!start && !end) return "";
+    if (!start) return end || "";
+    if (!end) return start;
+    if (start === end) return start;
+    return `${start} ~ ${end}`;
+  };
 
   // Fetch portfolio data
   useEffect(() => {
@@ -514,12 +536,17 @@ const PortfolioPage: React.FC = () => {
   // Convert to Lightbox slide format
   const slides = useMemo(
     () =>
-      currentSeries.photos.map((item) => ({
-        src: item.image,
-        description: `${item.location} | ${item.date}${
-          item.camera ? ` | ${item.camera}` : ""
-        }`,
-      })),
+      currentSeries.photos.map((item) => {
+        const descriptionParts = [];
+        if (item.location) descriptionParts.push(item.location);
+        if (item.date) descriptionParts.push(item.date);
+        if (item.camera) descriptionParts.push(item.camera);
+
+        return {
+          src: item.image,
+          description: descriptionParts.join(" | "),
+        };
+      }),
     [currentSeries]
   );
 
@@ -666,9 +693,11 @@ const PortfolioPage: React.FC = () => {
                   <SeriesHeading>
                     {currentSeries.title || activeSeries}
                   </SeriesHeading>
-                  <SeriesCount>
-                    {currentSeries.photos.length} photos
-                  </SeriesCount>
+                  {formatTimestamp(currentSeries.start, currentSeries.end) && (
+                    <SeriesTimestamp>
+                      {formatTimestamp(currentSeries.start, currentSeries.end)}
+                    </SeriesTimestamp>
+                  )}
                 </SeriesTitle>
 
                 <AnimatePresence mode="sync">

@@ -197,7 +197,7 @@ const MainHeading = styled(motion.h1)`
 `;
 
 const SubHeading = styled(motion.h2)`
-  font-size: 2.1em;
+  font-size: 1.65em;
   margin-top: 0;
   margin-bottom: 35px;
   color: #424242;
@@ -477,7 +477,7 @@ const HomePage: React.FC = () => {
                 className="fas fa-map-marker-alt"
                 style={{ color: "#8bc34a" }}
               />
-              Base in Seoul, South Korea
+              Based in Seoul, South Korea
             </InfoParagraph>
 
             <HomePageNav
